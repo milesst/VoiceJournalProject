@@ -1,0 +1,163 @@
+.SchedulePage {
+    height: 100vh;
+
+    display: flex;
+    flex-flow: column;
+    
+}
+
+.week-info-wrap {
+    flex-grow: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+
+}
+
+.current-week {
+    font-weight: 600;
+}
+
+.date-wrap * {
+    text-align: center;
+}
+
+.schedule-wrap {
+    flex-grow: 93;
+    background-color: white;
+
+    background-color: lightskyblue;
+
+    overflow: scroll;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.ScheduleCard {
+    display: flex;
+    justify-content: space-between;
+
+    flex-grow: 1;
+    /* min-height: 150px; */
+    height: fit-content;
+
+    background-color: white;
+    /* border: 1px solid deepskyblue; */
+    width: 100vw;
+}
+
+.events-wrap {
+    flex-grow: 8;
+
+    display: flex;
+    justify-content: start;
+    /* min-width: 100px; */
+    width: 100%;
+    background-color: white;
+}
+
+.DayDate {
+    flex-grow: 1;
+    min-width: 50px;
+    max-width: 50px;
+    /* background-color: lightcyan; */
+    
+    color: deepskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+
+    border-radius: 3px;
+}
+
+.daynumber {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.day-name {
+    font-size: 1rem;
+}
+
+
+
+.ClassInfo {
+    /* min-width: 130px; */
+    padding: 0.9rem;
+    flex-grow: 10;
+    font-size: 1.0rem;
+    /* max-height: 70px; */
+    min-width:140px;
+    /* max-width: 240px; */
+    /* flex-grow: 10; */
+
+    /* background-color: white; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ClassInfo {
+    border-right: 5px solid lightgray;
+
+}
+
+.info {
+    /* max-width: 100%; */
+    /* display: flex; */
+    /* flex-flow: wrap column; */
+    /* font-size-adjust: calc(); */
+    /* line-height: 1.3rem; */
+}
+
+.nav-wrap {
+    background-color: lightgray;
+    flex-grow: 3;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-button {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.button-back:after {
+    content:"";
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    background-color: black;
+    left: 50%;
+}
+
+.time {
+    background-color: #7D9FFC;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.group {
+    font-size: 0.9rem;
+}
+
+.schedulecard-header {
+    /* margin-bottom: 5px; */
+    margin-bottom: 7px;
+}

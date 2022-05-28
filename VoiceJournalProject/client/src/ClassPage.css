@@ -1,0 +1,117 @@
+.ClassPage {
+    height: 100vh;
+
+    display: flex;
+    flex-flow: column;
+}
+
+.class-info-wrap {
+    height: 30%;
+    padding: 5%;
+    box-sizing: border-box;
+    color: white;
+
+    flex-grow: 30;
+}
+
+.class-duration {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.7rem;
+    /* padding: 1rem; */
+    padding: 0 0 1rem 0;
+}
+
+.current-class-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.current-class-caption, .current-date {
+    font-size: 1.2rem;
+}
+
+.current-class-name, .current-class-caption, .current-date, .current-student-group {
+    padding: 0 0 0.3rem;
+}
+
+.student-info-wrap {
+    max-height: 58%;
+    background-color: white;
+    padding: 5%;
+    overflow: scroll;
+
+    flex-grow: 58;
+}
+
+.StudentGrade {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.4rem;
+    box-sizing: border-box;
+
+}
+
+.StudentGrade:not(:last-child) {
+    border-bottom: 1px solid lightgray;
+}
+
+.student-name {
+    flex-grow: 6;
+
+    display: flex;
+    align-items: center;
+}
+
+.student-presence, .student-grade {
+    flex-grow: 1;
+    max-width: 7%;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.student-grade input {
+    max-width:100%;
+
+    border-width: 0;
+    text-align: center;
+    font-size: 1.2rem;
+    border-bottom: solid black 1px;
+    padding: 0;
+}
+
+.voice-input-wrap {
+    border-top: 2px solid gray;
+    height: 10%;
+    background-color: white;
+    text-align: center;
+}
+
+.end-class-wrap {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+}
+
+.voice-input-wrap button {
+    background-color: white;
+    color: #7D9FFC;
+    border: none;
+    font-size: 1rem;
+    font-family: Montserrat;
+    border: 2px solid #7D9FFC;
+    padding: 0.5rem 0.5rem;
+
+    border-radius: 20px;
+}
+
+.toggle {
+    background-color: #7D9FFC;
+    color: white;
+}

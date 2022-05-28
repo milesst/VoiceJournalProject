@@ -1,0 +1,79 @@
+.DocumentPage {
+    width: 100vw;
+    height: 100vh;
+
+    box-sizing: border-box;
+}
+
+.header {
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: white;
+    font-family: Montserrat;
+
+    padding: 15px;
+    height: 15vh;
+    background-color: transparent;
+
+    padding-left: 60px;
+}
+
+.form-wrap {
+    height: 85vh;
+    background-color: white;
+    padding: 15px 25px;
+
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+select {
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: Montserrat;
+
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 2px;
+
+    margin-bottom: 1.3rem;
+}
+
+input[type="submit"] {
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem 0.5rem;
+    font-size: 1.3rem;
+    color: white;
+    font-family: Montserrat;
+    background-color: transparent;
+
+    /* margin: auto; */
+}
+
+option {
+    /* color: red; */
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.wrapper {
+    display: inline-block;
+    width: 90%;
+}
+
+.label {
+    color: gray;
+    margin-bottom: 0.4rem;
+}
+
+.info {
+    /* padding: 5px; */
+    margin-bottom: 2rem;
+}

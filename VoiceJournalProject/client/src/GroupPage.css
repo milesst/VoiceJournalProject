@@ -1,0 +1,9 @@
+.StudentCard {
+    font-size: 1.2rem;
+    padding: 1rem 0.5rem;
+    border-bottom: 1px solid gray;
+}
+
+.groups-wrap {
+    padding: 1rem 1rem;
+}

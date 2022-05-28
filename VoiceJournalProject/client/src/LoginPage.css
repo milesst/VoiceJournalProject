@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(#7D9FFC, #86C4F3);
+    font-family: Montserrat;
+}
+
+input {
+    font-family: Montserrat;
+}
+
+.LoginForm {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.login-label {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 400;
+}
+
+.LoginForm-form {
+    height: 40vh;
+    width: 70vw;
+}
+
+.Field {
+    width: 100%;
+    padding: 0.5rem 0;
+}
+
+.Button {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.Button .login-btn {
+    padding: 0.4rem 2rem;
+    border-radius: 45px;
+    font-size: 1.3rem;
+    background-color: transparent;
+
+    border: 1px solid white;
+    color: white;
+    border: solid 2px white;
+    /* box-shadow: 0 0 5px gray; */
+}
+
+/* .Button input:hover {
+    background-color: white;
+    color: blue;
+} */
+
+.Field input {
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 0.6rem;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: solid 2px white;
+}

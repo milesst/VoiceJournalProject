@@ -1,0 +1,223 @@
+.App {
+  background-color: lightblue;
+  min-height: 100vh;
+  font-family: Montserrat;
+}
+
+.burger-button-container {
+  position: absolute;
+  width: 40px;
+  height: 35px;
+  background: brown;
+  left: 4vw;
+  top: 4vw;
+  z-index: 9999;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  /* margin-bottom: 10px;
+  color: #d1d1d1; */
+  transition: color 0.2s;
+}
+
+/* Change color on hover */
+/* .bm-item:hover {
+  color: white;
+} */
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 25px;
+  height: 20px;
+  left: 20px;
+  top: 20px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  /* color: #b8b7ad; */
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+/*.App-logo {*/
+/*  height: 40vmin;*/
+/*  pointer-events: none;*/
+/*}*/
+
+/*@media (prefers-reduced-motion: no-preference) {*/
+/*  .App-logo {*/
+/*    animation: App-logo-spin infinite 20s linear;*/
+/*  }*/
+/*}*/
+
+/*.App-header {*/
+/*  background-color: #282c34;*/
+/*  min-height: 100vh;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  font-size: calc(10px + 2vmin);*/
+/*  color: white;*/
+/*}*/
+
+/*.App-link {*/
+/*  color: #61dafb;*/
+/*}*/
+
+/*@keyframes App-logo-spin {*/
+/*  from {*/
+/*    transform: rotate(0deg);*/
+/*  }*/
+/*  to {*/
+/*    transform: rotate(360deg);*/
+/*  }*/
+/*}*/
+
+.VoiceInput-icon {
+  background: url('https://play-lh.googleusercontent.com/C3oTVtjw9Xl3icZ9XAT1-U8QBEEXX9rXZbC26-DL9lwstzC3RIKwLeQMT57CZbS4QA') no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+}
+
+.BasePage {
+  min-height: 100vh;
+  background: linear-gradient(#7D9FFC, #86C4F3);
+}
+
+.VoiceInput {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SideMenu {
+  min-height: 100vh;
+  min-width: 100vw;
+  /*display: flex;*/
+  /*justify-content: flex-start;*/
+  position: absolute;
+}
+
+.menu-visible {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.SideMenu-container {
+  height: 100vh;
+  width: 55vw;
+  background: white;
+  box-shadow: 0 0 7px gray;
+
+  
+}
+
+.MenuItem-link:visited, .MenuItem-link, .link-profile:visited, .link-profile {
+  color: #373a47;
+}
+
+
+.SideMenu-profile_container {
+  height: 30%;
+  width: 100%;
+  border-bottom: gray 1px solid;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.link-profile {
+  
+  text-decoration: none;
+}
+
+.SideMenu-profile_wrapper {
+  height: 80%;
+  width: 80%;
+  /* background: gold; */
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.SideMenu-profile_photo {
+  margin: auto;
+  height: 55%;
+  width: 55%;
+  background: lightblue;
+  /* background: url('') no-repeat; */
+  background-size: cover;
+  border-radius: 100vh;
+}
+
+.SideMenu-profile_name {
+  margin: auto;
+  height: 30%;
+  width: 100%;
+  /* background: limegreen; */
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.MenuItem-container {
+  padding: 15px;
+  /*background: brown;*/
+  margin: 0;
+
+  border-bottom: gray 1px solid;
+}
+
+.MenuItem-text {
+  margin: 0;
+}
+
+.MenuItem-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+
+}
+
+.MenuItem {
+  
+  font-size: 1.1rem;
+}

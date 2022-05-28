@@ -1,0 +1,71 @@
+.page-label-wrap {
+    height: 3vh;
+    color: white;
+    padding: 1.2rem;
+    font-size: 1.3rem;
+
+    padding-left: 60px;
+
+    font-weight: 600;
+}
+
+.disciplines-wrap, .groups-wrap {
+    height: 97vh;
+    background-color: white;
+
+    border-radius: 15px 15px 0 0;
+
+    padding: 1rem 1rem;
+}
+
+.DisciplineItem {
+    border-bottom: solid 5px lightgray;
+    border-top: 0;
+    padding: 0.8rem;
+}
+
+.discipline-label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 0.2rem;
+
+    /* color: deepskyblue; */
+}
+
+.GroupItem {
+    padding: 0.3rem 0;
+    font-size: 1.2rem;
+}
+
+.discipline-header {
+    display: flex;
+    min-height: 3.4rem;
+    /* background-color: gray; */
+}
+
+.discipline-label {
+    width: 80%;
+}
+
+.details-icon {
+    width: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 35px;
+    height: 35px;
+    opacity: 50%;
+    padding: 5px;
+}
+
+.group-number-label {
+    background-color: #7D9FFC;
+    width:fit-content;
+    padding: 2px 10px;
+    border-radius: 50px;
+    color: white;
+}
